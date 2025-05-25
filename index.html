@@ -193,7 +193,7 @@
     </main>
 
     <style>
-      @keyframes morphBlob {
+      /* @keyframes morphBlob {
         0%,
         100% {
           border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
@@ -241,7 +241,58 @@
         83.3% {
           border-radius: 55% 45% 35% 65% / 65% 35% 65% 35%;
         }
-      }
+      } */
+
+
+      @keyframes morphBlob { 
+  0%, 
+  100% { 
+    border-radius: 45% 25% 35% 15% / 25% 45% 15% 35%; 
+  } 
+  12.5% { 
+    border-radius: 15% 45% 25% 35% / 35% 15% 45% 25%; 
+  } 
+  25% { 
+    border-radius: 35% 15% 45% 25% / 45% 35% 25% 15%; 
+  } 
+  37.5% { 
+    border-radius: 25% 35% 15% 45% / 15% 25% 35% 45%; 
+  } 
+  50% { 
+    border-radius: 45% 15% 35% 25% / 35% 45% 15% 25%; 
+  } 
+  62.5% { 
+    border-radius: 15% 35% 25% 45% / 25% 15% 45% 35%; 
+  } 
+  75% { 
+    border-radius: 35% 45% 15% 25% / 45% 25% 35% 15%; 
+  } 
+  87.5% { 
+    border-radius: 25% 15% 45% 35% / 15% 35% 25% 45%; 
+  } 
+} 
+
+@keyframes morphBlob2 { 
+  0%, 
+  100% { 
+    border-radius: 40% 20% 30% 50% / 30% 40% 50% 20%; 
+  } 
+  16.6% { 
+    border-radius: 20% 50% 40% 30% / 50% 20% 30% 40%; 
+  } 
+  33.3% { 
+    border-radius: 50% 30% 20% 40% / 20% 50% 40% 30%; 
+  } 
+  50% { 
+    border-radius: 30% 40% 50% 20% / 40% 30% 20% 50%; 
+  } 
+  66.6% { 
+    border-radius: 50% 20% 40% 30% / 20% 40% 30% 50%; 
+  } 
+  83.3% { 
+    border-radius: 20% 30% 50% 40% / 50% 30% 40% 20%; 
+  } 
+}
 
       @media (max-width: 768px) {
         .blob-container {
